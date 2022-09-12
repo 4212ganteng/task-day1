@@ -1,10 +1,24 @@
 body {
+  width: 1200px;
+  margin: 100px auto;
+  background-color: #e3e7eb;
   font-family: "Poppins", sans-serif;
 }
 
-.root {
-  width: 700px;
-  margin: 100px auto;
+.container {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  padding: 50px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.inside-card-1 {
+  width: 50%;
+  margin: 0 auto;
 }
 
 button {
@@ -30,6 +44,10 @@ a {
   color: #111727;
 }
 
+a:hover {
+  color: #2a2f3d;
+}
+
 .cv {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -45,7 +63,7 @@ a {
   padding: 20px;
 }
 
-.card {
+.card2 {
   width: 350px;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -58,12 +76,10 @@ img {
   width: 100%;
 }
 
-.card-title {
+.ttl {
   font-size: 20px;
-  margin-top: 0px;
 }
 
 .card-desc {
   font-size: 14px;
-  margin-top: 0px;
 }
